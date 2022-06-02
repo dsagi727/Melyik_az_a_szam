@@ -10,7 +10,7 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
   html {
     font-size: 40%;
   }
@@ -81,7 +81,7 @@ h1 {
   right: 2rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .between {
     font-size: 1.3rem;
     position: relative;
