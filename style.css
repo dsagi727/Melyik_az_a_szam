@@ -10,17 +10,22 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+}
 
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
 }
 
 /* LAYOUT */
 header {
   position: relative;
+  display: block;
   height: 35vh;
   border-bottom: 7px solid #eee;
 }
@@ -76,8 +81,17 @@ h1 {
   right: 2rem;
 }
 
+@media only screen and (max-width: 400px) {
+  .between {
+    font-size: 1.3rem;
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+  }
+}
+
 .again {
-  position: absolute;
+  position: relative;
   text-transform: uppercase;
   top: 2rem;
   left: 2rem;
