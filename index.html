@@ -4,27 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Melyik számra gondoltam?</title>
   </head>
   <body>
     <header>
-      <button class="btn again">ujra</button>
-      <p class="between">(Gondoltam egy számra 1 és 100 között)</p>
-      <h1>Melyik<br />az a szám?</h1>
+      <div class=""><button class="btn again">ujra</button></div>
+      <div class="">
+        <p class="between">(Gondoltam egy számra 1 és 100 között)</p>
+      </div>
+      <div class="">
+        <div class="">
+          <h1>Melyik<br />az a szám?</h1>
+        </div>
+      </div>
       <div class="number">?</div>
     </header>
     <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Tippelek!</button>
+      <section>
+        <div><input type="number" class="guess" /></div>
+        <div class="">
+          <button class="btn check">Tippelek!</button>
+        </div>
       </section>
-      <section class="right">
-        <p class="message">🧠Találd ki...</p>
-        <p class="label-score">💯 Pontszám: <span class="score">20</span></p>
-        <p class="label-highscore">
-          🥇 Rekord: <span class="highscore">0</span>
-        </p>
+      <section class="col- col-6 right">
+        <div><p class="message">🧠Találd ki...</p></div>
+        <div>
+          <p class="label-score">💯 Pontszám: <span class="score">20</span></p>
+        </div>
+        <div>
+          <p class="label-highscore">
+            🥇 Rekord: <span class="highscore">0</span>
+          </p>
+        </div>
       </section>
     </main>
     <script src="script.js"></script>
